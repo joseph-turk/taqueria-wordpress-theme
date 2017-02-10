@@ -11,15 +11,13 @@
 
 ?>
 
-	</div><!-- #content -->
+	</div><!-- .main-content container -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'taqueria' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'taqueria' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'taqueria' ), 'taqueria', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer>
+	  <div class="footer-content container">
+	    <p>&copy; 2017 Taqueria Guadalajara. Web design and development by <a href="//joseph-turk.com">Joseph Turk</a>.
+	  </div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

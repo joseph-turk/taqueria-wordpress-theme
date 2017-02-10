@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Custom Styles
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -892,4 +893,81 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*--------------------------------------------------------------
+# Custo Styles
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Bevan|Fira+Sans+Condensed|Patua+One');
+
+body {
+  font-family: "Fira Sans Condensed";
+  color: #333;
+}
+
+h1, h2 {
+  font-family: "Patua One";
+}
+
+header {
+  min-height: 300px;
+  position: relative;
+  background-color: lightyellow;
+  background-image: url('http://cdn.skim.gs/images/ifg3l1sjjb8osdzjoipz/bizarre-tacos-tripe-tacos');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+.header-content,
+.footer-content {
+  position: absolute;
+  bottom: 0;
+}
+
+.header-content {
+  padding: 1em;
+}
+
+.header-mask {
+  background-color: rgba(220, 200, 200, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+/*nav {
+  background-color: #d22020;
+}*/
+
+.main-content {
+  margin-bottom: 3em;
+}
+
+.hours ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+footer {
+  min-height: 150px;
+  position: relative;
+  background-color: #efbc3c;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
 }
