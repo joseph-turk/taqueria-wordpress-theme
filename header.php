@@ -55,6 +55,7 @@
 				<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
+						'depth' => 2,
 						'menu_id' => 'primary-menu',
 						'menu_class' => 'nav navbar-nav'
 					) );
